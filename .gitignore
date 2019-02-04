@@ -1,3 +1,6 @@
+*.pyc
+.vscode/
 resources/
 public/
 __pycache__/
+static/files/*.pdf

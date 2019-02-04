@@ -13,10 +13,10 @@ baseurl = "http://pages.saclay.inria.fr/julien.vanharen/"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = ""
+copyright = "Copyright &copy; 2019 Julien Vanharen - Last update Feb 2019"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-133728502-1"
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
@@ -30,6 +30,8 @@ theme = "academic"
 
 # Get last modified date for content from Git?
 enableGitInfo = true
+
+removePathAccents = true
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
