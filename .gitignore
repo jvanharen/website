@@ -3,4 +3,5 @@
 resources/
 public/
 __pycache__/
+cv/build/
 static/files/*.pdf

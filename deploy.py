@@ -35,7 +35,7 @@ def build_cv():
     run('make', build_dir)
     shutil.copy(os.path.join(build_dir, 'cv.pdf'),
                 os.path.join('static', 'files', 'cv.pdf'))
-    shutil.rmtree(build_dir)
+    # shutil.rmtree(build_dir)
 
 
 ### --- Add bibliography. --- ###

@@ -21,7 +21,10 @@ email = ""
 # List (academic) interests or hobbies
 interests = [
   "Computational Fluid Dynamics",
-  "High-order numerical methods"
+  "Large Eddy Simulation",
+  "High-order numerical methods",
+  "High-order mesh adaptation",
+  "High Performance Computing"
 ]
 
 # List qualifications (such as academic degrees)
@@ -31,7 +34,12 @@ interests = [
   year = 2017
 
 [[education.courses]]
-  course = "MSc in Aerospace Engineering"
+  course = "Research Master in Fluid Dynamics"
+  institution = "ISAE Supaéro"
+  year = 2013
+
+[[education.courses]]
+  course = "MD in Aerospace Engineering, Major in Aerodynamics"
   institution = "ISAE Supaéro"
   year = 2013
 
@@ -73,15 +81,14 @@ interests = [
   icon_pack = "fab"
   link = "https://github.com/jvanharen"
 
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[social]]
-#   icon = "cv"
-#   icon_pack = "ai"
-#   link = "files/cv.pdf"
-
 +++
 
-<!-- Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a Post-Doc in the [GAMMA3](https://team.inria.fr/gamma3/) team at [INRIA - Saclay](https://www.inria.fr/centre/saclay).
+My reasearch interests lie in numerical methods and tools for Computational Fluid Dynamics (CFD).
+I am working on high-order numerical methods and high-order anisotropic mesh adaptation to perform Large Eddy Simulation aroud complex geometries.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.  -->
+In 2017, I received my [PhD](files/phd.pdf) in Computational Fluid Dynamics from Toulouse University in collaboration with [CERFACS](https://cerfacs.fr)
+and [AIRBUS](https://www.airbus.com) where I worked with [Guillaume Puigt](http://gpuigt.free.fr/index.html)
+on high-order numerical methods for unsteady flows around complex geometries.
+
+A PDF version of my CV is available [here](files/cv.pdf).
