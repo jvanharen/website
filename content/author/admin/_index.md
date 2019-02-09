@@ -85,7 +85,7 @@ interests = [
 
 I am a Post-Doc in the [GAMMA3](https://team.inria.fr/gamma3/) team at [INRIA - Saclay](https://www.inria.fr/centre/saclay).
 My reasearch interests lie in numerical methods and tools for Computational Fluid Dynamics (CFD).
-I am working on high-order numerical methods and high-order anisotropic mesh adaptation to perform Large Eddy Simulation aroud complex geometries.
+I am working on high-order numerical methods and high-order anisotropic mesh adaptation to perform Large Eddy Simulation around complex geometries.
 
 In 2017, I received my [PhD](files/phd.pdf) in Computational Fluid Dynamics from Toulouse University in collaboration with [CERFACS](https://cerfacs.fr)
 and [AIRBUS](https://www.airbus.com) where I worked with [Guillaume Puigt](http://gpuigt.free.fr/index.html)
