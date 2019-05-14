@@ -37,7 +37,7 @@ weight = 5
   icon = "code"
   icon_pack = "fas"
   name = "Programming"
-  description = "C/C++, F90, Python, OpenMP, MPI, CMake"
+  description = "C/C++, F90, Python,<br>OpenMP, MPI, CMake, <a href='http://cgns.github.io'>CGNS</a>"
 
 [[feature]]
   icon = "cogs"

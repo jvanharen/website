@@ -52,4 +52,4 @@ run('hugo')
 build_cv()
 
 # ### --- Deploy. --- ###
-run('rsync -avz --delete public/ jvanhare@nfs.saclay.inria.fr:~/public_html/')
+run('rsync -avz --delete --progress --stats public/ jvanhare@nfs.saclay.inria.fr:~/public_html/')

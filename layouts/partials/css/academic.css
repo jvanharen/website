@@ -21,6 +21,7 @@ html {
 }
 
 body {
+  /* text-align: justify; */
   font-family: inherit;
   font-size: 1rem;
   line-height: inherit;
@@ -138,17 +139,21 @@ video {
 }
 
 figcaption {
+  /* color: {{ .Get "link_hover" }}; */
+  text-align: center;
   display: block;
-  margin-top: 0.75em;
-  line-height: 1.25;
-  font-size: 1rem;
-  margin-bottom: 1.65rem;
+  margin-top: 0.0em;
+  /* line-height: 1.25; */
+  font-size: 0.8rem;
+  font-style: italic;
+  /* margin-bottom: 1.65rem; */
   font-family: '{{ .Get "heading_font" }}', sans-serif;
 }
 
 figcaption.numbered:before {
   font-weight: 700;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+  font-style: normal;
   content: attr(data-pre) counter(captions) attr(data-post);
 }
 
@@ -159,8 +164,9 @@ figcaption.numbered {
 figcaption h4 {
   display: inline;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 1000;
   margin: 0;
+  font-style: italic;
 }
 
 pre,
@@ -1779,6 +1785,7 @@ table > tfoot > tr > td {
 table > thead > tr > th {
   vertical-align: bottom;
   border-bottom: 2px solid #ddd;
+  text-align: center;
 }
 
 table > caption + thead > tr:first-child > th,

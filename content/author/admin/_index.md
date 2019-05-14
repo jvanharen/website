@@ -20,11 +20,11 @@ email = ""
 
 # List (academic) interests or hobbies
 interests = [
-  "Computational Fluid Dynamics",
-  "Large Eddy Simulation",
-  "High-order numerical methods",
-  "High-order mesh adaptation",
-  "High Performance Computing"
+  '<div style="text-align: left"> Computational Fluid Dynamics </div>',
+  '<div style="text-align: left"> Large Eddy Simulation </div>',
+  '<div style="text-align: left"> High-order numerical methods </div>',
+  '<div style="text-align: left"> High-order mesh adaptation </div>',
+  '<div style="text-align: left"> High Performance Computing </div>',
 ]
 
 # List qualifications (such as academic degrees)
