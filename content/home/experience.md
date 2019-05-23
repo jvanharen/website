@@ -23,7 +23,7 @@ date_format = "January 2, 2006"
   company = "Inria - Saclay"
   company_url = "https://www.inria.fr/centre/saclay"
   location = "Palaiseau, France"
-  date_start = "2017-06-01"
+  date_start = "2017-05-01"
   date_end = ""
   description = """
   Time-Accurate Anisotropic Mesh Adaptation for Fluid Structure Interaction Simulations
