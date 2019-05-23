@@ -58,7 +58,7 @@ date_format = "January 2, 2006"
 
   <a href='files/phd.pdf'>High-Order Numerical Methods For Unsteady Flows Around Complex Geometries</a>
   
-  Several numerical methods & codes are investigated, among them:
+  Several numerical methods & codes are investigated for industrial applications, among them:
 
   - The coupling with a nonconforming grid interface of high-order schemes for structured and unstructured zones in <a href='http://elsa.onera.fr'>elsA</a>,
   - The Spectral Difference Method in <a href='http://gpuigt.free.fr/jaguar.html'>JAGUAR</a>,

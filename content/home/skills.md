@@ -10,7 +10,7 @@ title = "Skills"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 5
+weight = 6
 
 # Showcase personal skills or business features.
 # 
@@ -31,7 +31,7 @@ weight = 5
   icon = "square-root-alt"
   icon_pack = "fas"
   name = "Simulation & Meshing"
-  description = "<a href='http://pages.saclay.inria.fr/frederic.alauzet/'>Wolf</a>, <a href='http://elsa.onera.fr'>elsA</a>, <a href='http://gpuigt.free.fr/jaguar.html'>JAGUAR</a>, <a href='http://www.prolb-cfd.com/'>ProLB</a>, <a href='http://www.meshgems.com'>GHS3D</a>, <a href='https://pyamg.saclay.inria.fr/'>Feflo.a</a>, <a href='https://www.centaursoft.com'>Centaur</a>, <a href='https://www.beta-cae.com/ansa.htm'>Ansa</a>"
+  description = "<a href='http://pages.saclay.inria.fr/frederic.alauzet/'>Wolf</a>, <a href='http://elsa.onera.fr'>elsA</a>, <a href='http://gpuigt.free.fr/jaguar.html'>JAGUAR</a>, <a href='http://www.prolb-cfd.com/'>ProLB</a>, <a href='http://www.meshgems.com'>GHS3D</a>, <a href='https://pyamg.saclay.inria.fr/'>Feflo.a</a>, <a href='https://www.centaursoft.com'>Centaur</a>, <a href='https://www.beta-cae.com/ansa.htm'>Ansa</a>, <a href='http://gmsh.info'>Gmsh</a>"
 
 [[feature]]
   icon = "code"
@@ -43,7 +43,7 @@ weight = 5
   icon = "cogs"
   icon_pack = "fas"
   name = "Automation"
-  description = "LaTeX, Keynote"
+  description = "LaTeX, Keynote, Microsoft Office Suite"
 
 [[feature]]
   icon = "eye"
