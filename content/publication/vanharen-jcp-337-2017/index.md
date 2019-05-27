@@ -7,6 +7,6 @@ abstract = "The spectral analysis is a basic tool to characterise the behaviour 
 featured = false
 publication = "*Journal of Computational Physics*"
 tags = ["Space-time spectral analysis", "Spectral discontinuous", "Finite Difference", "Aeroacoustics", "Aliasing", "Matrix Power Method"]
-doi = "10.1016/j.jcp.2017.02.043"
+url_pdf = "files/vanharen_jcp_337_2017.pdf"
 +++
 

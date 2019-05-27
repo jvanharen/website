@@ -7,6 +7,6 @@ abstract = "A framework is proposed for the spectral analysis of the numerical s
 featured = false
 publication = "*Journal of Computational Physics*"
 tags = ["Structured grids", "Nonconforming grid interface", "2D spectral analysis", "Reflection of high-frequency waves", "High-order metric-dependent interpolation", "Riemann solver"]
-doi = "10.1016/j.jcp.2015.01.013"
+url_pdf = "files/vanharen_jcp_285_2015.pdf"
 +++
 
