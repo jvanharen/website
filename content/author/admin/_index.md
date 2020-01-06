@@ -10,7 +10,7 @@ role = "Post-Doc"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [{name = "GAMMA3", url = "https://team.inria.fr/gamma3/"}, {name = "INRIA - Saclay", url = "https://www.inria.fr/centre/saclay"}]
+organizations = [{name = "GAMMA", url = "https://team.inria.fr/gamma/"}, {name = "INRIA - Saclay", url = "https://www.inria.fr/centre/saclay"}]
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""
@@ -83,7 +83,7 @@ interests = [
 
 +++
 
-I am a Post-Doc in the [GAMMA3](https://team.inria.fr/gamma3/) team at [INRIA - Saclay](https://www.inria.fr/centre/saclay).
+I am a Post-Doc in the [GAMMA](https://team.inria.fr/gamma/) team at [INRIA - Saclay](https://www.inria.fr/centre/saclay).
 My reasearch interests lie in numerical methods and tools for Computational Fluid Dynamics (CFD).
 I am working on high-order numerical methods and high-order anisotropic mesh adaptation to perform Large Eddy Simulation around complex geometries.
 

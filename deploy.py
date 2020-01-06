@@ -43,13 +43,13 @@ academic.academic.import_bibtex('cv/src/biblio.bib', overwrite=True)
 
 ### --- Update date. --- ###
 replace_line('config/_default/config.toml', 'copyright = ',
-             'copyright = "Copyright &copy; 2019 Julien Vanharen - Last update ' + datetime.datetime.now().strftime('%b %Y') + '"\n')
-
-# ### --- Compile with Hugo. --- ###
-run('hugo')
+             'copyright = "Copyright &copy; ' + datetime.datetime.now().strftime('%Y') + ' Julien Vanharen - Last update ' + datetime.datetime.now().strftime('%b %d %Y %H:%M:%S') + '"\n')
 
 # ### --- Build CV. --- ###
 build_cv()
+
+# ### --- Compile with Hugo. --- ###
+run('hugo')
 
 # ### --- Deploy. --- ###
 run('rsync -avz --delete --progress --stats public/ jvanhare@nfs.saclay.inria.fr:~/public_html/')
