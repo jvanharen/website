@@ -3,7 +3,7 @@ import sys
 import shutil
 import datetime
 import subprocess
-import academic.academic
+from pyacademic.academic import import_bibtex
 
 
 def run(prg, dir=None):
@@ -39,7 +39,7 @@ def build_cv():
 
 
 ### --- Add bibliography. --- ###
-academic.academic.import_bibtex('cv/src/biblio.bib', overwrite=True)
+import_bibtex('cv/src/biblio.bib', overwrite=True)
 
 ### --- Update date. --- ###
 replace_line('config/_default/config.toml', 'copyright = ',

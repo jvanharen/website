@@ -81,6 +81,11 @@ interests = [
   icon_pack = "fab"
   link = "https://github.com/jvanharen"
 
+[[social]]
+  icon = "google-scholar"
+  icon_pack = "ai"
+  link = "https://scholar.google.com/citations?user=R6OO3noAAAAJ&hl=en&oi=ao"
+
 +++
 
 I am a Post-Doc in the [GAMMA](https://team.inria.fr/gamma/) team at [INRIA - Saclay](https://www.inria.fr/centre/saclay).

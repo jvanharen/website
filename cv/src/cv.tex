@@ -19,7 +19,7 @@
       autopunct=true,babel=hyphen,hyperref=true,abbreviate=false,
       backref=true,backend=biber,maxbibnames=99,
       date=year,isbn=false]{biblatex}
-
+\AtEveryBibitem{\clearfield{doi}}
 \DeclareSourcemap{\maps[datatype=bibtex]{\map{\step[fieldsource=author,match=Vanharen,final]\step[fieldset=keywords, fieldvalue=Vanharen]}}}
 
 \def\UrlFont{\normalfont}

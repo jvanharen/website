@@ -8,5 +8,9 @@ featured = false
 publication = ""
 tags = ["Finite Volume", "Nonconforming Grid Interface", "Hybrid Approach", "High-Order Unstructured Schemes", "Spurious Waves", "Spectral Difference", "Spectral Analysis"]
 url_pdf = "files/phd.pdf"
+scholar_id = "9yKSN-GCB0IC"
+scholar_name = "High-order numerical methods for unsteady flows around complex geometries"
+scholar_url = "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=R6OO3noAAAAJ&pagesize=100&citation_for_view=R6OO3noAAAAJ:9yKSN-GCB0IC"
+scholar_citecount = "1"
 +++
 

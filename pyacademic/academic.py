@@ -8,11 +8,14 @@ import argparse
 from argparse import RawTextHelpFormatter
 from pathlib import Path
 import toml
+import json
 from requests import get
 from urllib.parse import urlparse
 import tempfile
 import calendar
-from academic import __version__ as version
+from pyacademic import __version__ as version
+from pyacademic.scholar import Author
+
 
 import bibtexparser
 from bibtexparser.bparser import BibTexParser
@@ -85,16 +88,22 @@ def import_bibtex(bibtex, pub_dir='publication', featured=False, overwrite=False
         print('Please check the path to your BibTeX file and re-run.')
         return
 
+    # Import Google Scholar data of Julien Vanharen = R6OO3noAAAAJ.
+    scholar_data = Author("R6OO3noAAAAJ")
+    with open("data/scholar_data.json","w") as fid:
+        fid.write(json.dumps(scholar_data.publication, sort_keys=True, indent=4, separators=(',', ': ')))
+        
+
     # Load BibTeX file for parsing.
     with open(bibtex, 'r', encoding='utf-8') as bibtex_file:
         parser = BibTexParser()
         parser.customization = convert_to_unicode
         bib_database = bibtexparser.load(bibtex_file, parser=parser)
         for entry in bib_database.entries:
-            parse_bibtex_entry(entry,  pub_dir=pub_dir, featured=featured, overwrite=overwrite)
+            parse_bibtex_entry(entry, scholar_data, pub_dir=pub_dir, featured=featured, overwrite=overwrite)
 
 
-def parse_bibtex_entry(entry, pub_dir='publication', featured=False, overwrite=False):
+def parse_bibtex_entry(entry, scholar_data, pub_dir='publication', featured=False, overwrite=False):
     """Parse a bibtex entry and generate corresponding publication bundle"""
     print('Parsing entry {}'.format(entry['ID']))
 
@@ -160,6 +169,11 @@ def parse_bibtex_entry(entry, pub_dir='publication', featured=False, overwrite=F
     if 'doi' in entry:
         frontmatter.append('doi = "{}"'.format(entry['doi']))
 
+    # Scholar ID.
+    if 'scholar' in entry:
+        for k, v in scholar_data.publication[clean_bibtex_str(entry['scholar'])].items():
+            frontmatter.append(k + ' = "{}"'.format(clean_bibtex_str(v)))
+    
     frontmatter.append('+++\n\n')
 
     # Save Markdown file.

@@ -8,5 +8,10 @@ featured = false
 publication = "*Journal of Computational Physics*"
 tags = ["Structured grids", "Nonconforming grid interface", "2D spectral analysis", "Reflection of high-frequency waves", "High-order metric-dependent interpolation", "Riemann solver"]
 url_pdf = "files/vanharen_jcp_285_2015.pdf"
+doi = "10.1016/j.jcp.2015.01.013"
+scholar_id = "d1gkVwhDpl0C"
+scholar_name = "Theoretical and numerical analysis of nonconforming grid interface for unsteady flows"
+scholar_url = "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=R6OO3noAAAAJ&pagesize=100&citation_for_view=R6OO3noAAAAJ:d1gkVwhDpl0C"
+scholar_citecount = "4"
 +++
 
