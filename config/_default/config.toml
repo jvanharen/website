@@ -13,7 +13,7 @@ baseurl = "http://pages.saclay.inria.fr/julien.vanharen/"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "Copyright &copy; 2020 Julien Vanharen - Last update Jan 07 2020 16:07:11"
+copyright = "Copyright &copy; 2020 Julien Vanharen - Last update Jan 07 2020 16:17:48"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = "UA-133728502-1"
