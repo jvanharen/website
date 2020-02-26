@@ -12,6 +12,6 @@ doi = "10.1016/j.jcp.2017.02.043"
 scholar_id = "qjMakFHDy7sC"
 scholar_name = "Revisiting the spectral analysis for high-order spectral discontinuous methods"
 scholar_url = "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=R6OO3noAAAAJ&pagesize=100&citation_for_view=R6OO3noAAAAJ:qjMakFHDy7sC"
-scholar_citecount = "14"
+scholar_citecount = "17"
 +++
 
